@@ -32,7 +32,7 @@ const sunglasses = {
   age: 1,
   hasScratches: "true",
   toggleScratches: function (value) {
-    this.hasScratches = true;
+    this.hasScratches = value;
   },
   lost: false,
   lose: function () {
